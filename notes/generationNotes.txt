@@ -1,0 +1,7 @@
+- This project builds into a war with mvn clean package which can be deployed to any web server
+- To reconstruct:
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp
+-DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false
+-DgroupId=com.jersey.deployableTutorial -DartifactId=jerseyDeployableTutorial
+-Dpackage=com.jersey.deployableTutorial -DarchetypeVersion=2.26
